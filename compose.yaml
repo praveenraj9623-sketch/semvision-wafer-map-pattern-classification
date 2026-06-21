@@ -1,0 +1,9 @@
+services:
+  semvision:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: semvision
+    ports:
+      - "8501:8501"
+    restart: unless-stopped

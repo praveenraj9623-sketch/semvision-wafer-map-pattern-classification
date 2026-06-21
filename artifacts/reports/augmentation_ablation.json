@@ -1,0 +1,7 @@
+{
+  "variant_a_val_macro_f1": 0.8104382364854856,
+  "variant_b_val_macro_f1": 0.8287794173296753,
+  "difference": 0.018341180844189675,
+  "winner": "with_augmentation",
+  "note": "The augmented variant improved validation macro-F1 by at least 0.01."
+}

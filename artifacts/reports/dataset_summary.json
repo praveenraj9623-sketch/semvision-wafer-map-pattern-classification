@@ -1,0 +1,74 @@
+{
+  "total_samples": 30519,
+  "class_names": [
+    "none",
+    "Center",
+    "Donut",
+    "Edge-Loc",
+    "Edge-Ring",
+    "Loc",
+    "Near-Full",
+    "Random",
+    "Scratch"
+  ],
+  "split_method": "lot-grouped",
+  "grouping_applied": true,
+  "grouping_fallback_reason": null,
+  "unique_lots": 9505,
+  "global_split_sizes": {
+    "train": 21352,
+    "validation": 4585,
+    "test": 4582
+  },
+  "global_class_counts": {
+    "all": {
+      "none": 5000,
+      "Center": 4294,
+      "Donut": 555,
+      "Edge-Loc": 5189,
+      "Edge-Ring": 9680,
+      "Loc": 3593,
+      "Near-Full": 149,
+      "Random": 866,
+      "Scratch": 1193
+    },
+    "train": {
+      "none": 3508,
+      "Center": 3026,
+      "Donut": 383,
+      "Edge-Loc": 3564,
+      "Edge-Ring": 6761,
+      "Loc": 2544,
+      "Near-Full": 112,
+      "Random": 611,
+      "Scratch": 843
+    },
+    "validation": {
+      "none": 757,
+      "Center": 622,
+      "Donut": 81,
+      "Edge-Loc": 809,
+      "Edge-Ring": 1460,
+      "Loc": 542,
+      "Near-Full": 18,
+      "Random": 130,
+      "Scratch": 166
+    },
+    "test": {
+      "none": 735,
+      "Center": 646,
+      "Donut": 91,
+      "Edge-Loc": 816,
+      "Edge-Ring": 1459,
+      "Loc": 507,
+      "Near-Full": 19,
+      "Random": 125,
+      "Scratch": 184
+    }
+  },
+  "group_overlap": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  }
+}
