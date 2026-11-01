@@ -1,6 +1,6 @@
 # SemVision: Semiconductor Wafer Map Pattern Classification and Triage
 
-> A production-grade two-stage ML system for defect pattern triage from semiconductor wafer maps.
+> A two-stage ML system for defect pattern triage from semiconductor wafer maps.
 
 ## Domain Disclaimer
 
@@ -69,7 +69,7 @@ Streamlit Demo (precomputed test samples only)
 **WM-811K Dataset**
 - **Source corpus:** WM-811K, **811,457 wafer maps**
 - Source: [Kaggle — WM-811K Wafer Map](https://www.kaggle.com/datasets/qingyi/wm811k-wafer-map)
-- License: **CC BY 4.0**
+- Kaggle mirror license: **CC0: Public Domain**, as listed in the [dataset metadata](https://www.kaggle.com/datasets/qingyi/wm811k-wafer-map/metadata) (checked 2026-11-01).
 - 8 defect pattern classes: `Center`, `Donut`, `Edge-Loc`, `Edge-Ring`, `Loc`, `Near-Full`, `Random`, `Scratch`
 - **Eligible labelled defect-pattern cohort:** 25,519 maps
 - **Sampled no-labelled-pattern cohort:** 5,000 maps
@@ -180,18 +180,6 @@ Navigate to `http://localhost:5000`
 
 ---
 
-## Resume Bullets
-
-- **Built a two-stage semiconductor wafer defect pattern classification system** on WM-811K (811K real fab wafers), achieving 0.8412 Stage 2 macro F1 across 8 defect patterns and 0.7484 end-to-end macro F1 across the 9-class system.
-
-- **Designed one global lot-grouped split across 9,505 manufacturing lots**, derived both model stages from the same partitions, and conducted an augmentation ablation study documented in MLflow and a structured model card.
-
-- **Implemented Grad-CAM heatmaps** to visualize influential wafer regions per prediction, with explicit framing as visual decision support rather than causal root-cause diagnosis.
-
-- **Applied validation-selected confidence abstention**: evaluated thresholds from 0.30–0.90 and deployed 0.70, with coverage/error trade-offs, ECE, Brier score, and a reliability diagram reported.
-
----
-
 ## Model Card Limitations
 
 - Rare defect classes (Donut, Near-Full) have significantly fewer training samples and lower F1.
@@ -262,4 +250,4 @@ SemVision/
 
 ## License
 
-Dataset: WM-811K is licensed under **CC BY 4.0**.
+The cited Kaggle mirror lists WM-811K as **CC0: Public Domain**. See the [dataset metadata](https://www.kaggle.com/datasets/qingyi/wm811k-wafer-map/metadata) and the research paper linked from its data card for source provenance. This statement describes the mirror's listing; it does not assign a license to this repository's code.

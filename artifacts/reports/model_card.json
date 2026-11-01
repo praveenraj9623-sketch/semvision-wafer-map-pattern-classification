@@ -4,7 +4,7 @@
   "domain_note": "This model classifies spatial defect patterns from categorical wafer maps. It does NOT perform raw e-beam SEM image defect detection. Wafer maps represent aggregated die pass/fail outcomes, not inspection imagery.",
   "intended_use": "Yield triage and defect pattern identification from wafer-level test data in semiconductor manufacturing.",
   "out_of_scope": "Direct use on raw SEM or optical inspection images, root-cause diagnosis without manufacturing metadata.",
-  "training_data": "WM-811K dataset (811,457 wafer maps from real fab production, Kaggle, CC BY 4.0)",
+  "training_data": "WM-811K dataset (811,457 wafer maps from real fab production, Kaggle mirror lists CC0: Public Domain)",
   "data_split_method": "lot-grouped",
   "data_split_fallback_reason": null,
   "augmentation_used": "with_augmentation",
