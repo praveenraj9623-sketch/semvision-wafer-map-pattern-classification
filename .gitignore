@@ -35,3 +35,7 @@ Thumbs.db
 
 # ── Test cache ────────────────────────────────────────────────────────────────
 .pytest_cache/
+
+# Generated logs and local process state
+*.log
+*.pid

@@ -91,7 +91,7 @@ def generate_model_card(
         ),
         "training_data": (
             "WM-811K dataset (811,457 wafer maps from real fab production, "
-            "Kaggle, CC BY 4.0)"
+            "Kaggle mirror lists CC0: Public Domain)"
         ),
         "data_split_method":  split_method_used,
         "data_split_fallback_reason": split_fallback_reason,
